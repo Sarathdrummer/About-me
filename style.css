@@ -1,0 +1,124 @@
+.hero{
+    background-color:rgb(241, 248, 232);
+}
+#title{
+    color:rgb(85, 173, 155);
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 5rem;
+}
+#me{
+    border-radius: 30%;
+    border: 10px solid rgb(85, 173, 155);
+    opacity: 90%;
+    height: 350px;
+    width:350px;
+}
+.lead{
+    font-family: "Pontano Sans", sans-serif;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: 10px solid rgb(85, 173, 155);
+    border-radius: 10px;
+    background-color:rgb(241, 248, 232) ;
+}
+p{
+    color:rgb(149, 210, 179);
+}
+.aa{
+    text-decoration: none;
+    color:rgb(216, 239, 211);
+    font-family:"Fira Sans Condensed";
+}
+nav{
+    height:7vh;
+    background-color:rgb(85, 173, 155);
+}
+@media (max-width:769px){
+    nav{
+        
+    }
+}
+.gradient-background {
+    background: linear-gradient(300deg,rgb(241, 248, 232), rgb(85, 173, 155), rgb(64, 93, 114));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.proj{
+    text-align: center;
+    color:rgb(85, 173, 155);
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 3rem;
+    margin: 20px;
+}
+.box{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#Sarath{
+    font-size: 2rem;
+    font-family: "Fira sans Condensed",sans-serif;
+    background-color:rgb(241, 248, 232);
+    padding:30px;
+    border: 10px solid rgb(85, 173, 155);
+    border-radius: 10px;
+}
+h4{
+    font-family: "Fira sans Condensed",sans-serif;
+    font-size: 2rem;
+    color:rgb(85, 173, 155);
+}
+p{
+    font-family:"Fira Sans Condensed", sans-serif;
+    font-size: 25px;
+}
+#abt{
+    font-size: 3rem;
+    font-family:"Fira Sans Condensed", sans-serif;
+    color:rgb(85, 173, 155);
+}
+.card-text{
+    color:rgb(85, 173, 155);
+}
+.Footer{
+    background-color:rgb(241, 248, 232) ;
+}
+.Footer a{
+    color:rgb(85, 173, 155);
+    height:15vh
+}
+@media (max-width:480px){
+    #me{
+        height:300px;
+        width:300px;
+    }
+}
+.prev{
+    background-color:rgb(241, 248, 232);
+}
+.mee{
+    border-radius: 10px;
+}
+.detail{
+    background-color:rgb(241, 248, 232);
+    padding:30px;
+    border: 10px solid rgb(85, 173, 155);
+    border-radius: 10px;
+}
